@@ -4,7 +4,7 @@ from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
-NOTION_TOKEN = "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"
+NOTION_TOKEN = "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"
 HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
     "Notion-Version": "2025-09-03",
